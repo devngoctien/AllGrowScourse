@@ -1,0 +1,411 @@
+@media only screen and (max-width:767px){
+    // Menu Header pc
+    .c-header{
+        position: initial;
+    }
+    .p-home{
+        margin-top: 0;
+    }
+    .p-navbar__pc{
+        display: none;
+    }
+    .p-navbar__mobile{
+        display: block;
+    }
+    .p-navbar{
+        padding: 18px 38px;
+    }
+    .p-navbar__logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .u-name-logo{
+        margin-left: 20px;
+        font-size: 1.8rem;
+    }
+    .u-name-logo li{
+        display: block;
+        line-height: 20px;
+    }
+    .p-jigyoushoukai__list-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .c-jigyoushoukai-box{
+        width: 42vw;
+        height: 450px;
+        margin-right: 0;
+        &:nth-child(2n+1){
+            // margin-right: 40px;
+            margin-bottom: 40px;
+        }
+    }
+    .c-jigyoushoukai-box>img{
+        width: 100%;
+        height: 100%;
+    }
+    // Menu for Mobile 
+    #item-dropdown-menu2{
+        &:checked ~ .p-navbar_menu-mobile-open{
+            display: none;
+        }
+    }
+    .p-navbar-mobile__info,
+    .p-navbar__mobile-menu{
+        width: 100%;
+    }
+    .p-navbar_menu-mobile-open{
+        display: block;
+    }
+    // sua cho slide 
+    .c-slide__bg .u-bg-pc{
+        display: none;
+    }
+    .c-slide__bg .u-bg-mobile{
+        display: block;
+        height: 672px;
+        width: 100%;
+    }
+    .c-slide__title2 .c-slide__big-text h1{
+        font-size: 10rem;
+    }
+    .c-slide__title2 .c-slide__big-text p{
+        font-size: 3rem;
+    }
+    .u-two-btn{
+        min-width: 125px;
+        margin-top: 7px;
+    }
+    .btn-click~.btn-click{
+        margin-left:10px ;
+    }
+    .c-slide__info__header{
+        
+    }
+    .c-slide-static{
+        bottom:45px;
+    }
+    .btn-click{
+        width: 50px;
+        height: 50px;
+        font-size: 3rem;
+    }
+    // sua info-static slide mobile
+    .c-slide-static{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .c-slide__info{
+        margin-bottom: 0;
+        padding: 0;
+        height: auto;
+        opacity: 1;
+        background-color: #333333;
+        position: initial;
+        transform: initial;
+    }
+    .c-slide__info__insidebox{
+        display: flex;
+        flex-direction: column;
+        padding: 36px 35px;
+    }
+    .text-info{
+        padding-right: 0;
+        border-right:0;
+        font-size: 2.4rem;
+        padding-bottom: 25px;
+        padding-left: 28px;
+    }
+    .c-slide__insidebox-left{
+        padding-top: 26px;
+        padding-left: 0;
+        text-align: right;
+        border-top:1px solid #cccccc;
+        font-size: 2.4rem;
+    }
+    .dp-inline{
+        display: block;
+        margin-bottom: 30px;
+    }
+    // jigyoushoukai
+    .p-jigyoushoukai{
+        margin-top: 80px !important;
+    }
+    .p-jigyoushoukai__title{
+        font-size: 3.6rem;
+    }
+    .p-jigyoushoukai__logo{
+        width: 72px;
+    }
+    .p-jigyoushoukai__text{
+        font-size: 2.8rem;
+        max-width:none;
+        margin: 0 35px;
+        margin-top: 45px;
+    }
+    .p-jisekishoukai_btn-next, .p-jisekishoukai_btn-pre{
+        line-height: 441px;
+        display: block;
+        width: 65px;
+        margin: 0;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .p-jisekishoukai__litst-box{
+        margin: 0 35px !important;
+        justify-content: space-between;
+    }
+    .p-jisekishoukai__litst-box .box{
+        max-width: 450px;
+        width: 100%;
+        height: 441px;
+        img{
+            width: 100%;
+        }
+        .tag-name{
+            padding: 10px 20px;
+            font-size:2.4rem ;
+        }
+        .box__content{
+            font-size: 2.6rem;
+            padding: 20px 30px;
+        }
+        .next-slide{
+            position: absolute;
+            right: 30px;
+            bottom: 30px;
+            cursor: pointer;
+            font-size: 3rem;
+        }
+    }
+    .box{
+        margin: 0;
+        &:nth-child(n+3) {
+            display: none;
+        }
+    }
+    // View Mobile for jiseki 
+    
+    
+    .p-shouzaijouhou__text,
+    .p-oshirase__list,
+    .p-jisekishoukai__text{
+        margin: 0 35px !important;
+    }
+    .p-jisekishoukai__text{
+        padding-top: 100px;
+    }
+    .p-jisekishoukai__text h1{
+        margin-top: 20px;
+        font-size: 3.6rem;
+    }
+    .p-jisekishoukai__text h3{
+        margin-top: 42px;
+        font-size: 2.8rem;
+        font-weight: 500;
+    }
+    .p-oshirase__list{
+        width: auto;
+    }
+    .p-kaishaannai{
+        display: flex;
+        flex-direction: column;
+    }
+    .p-kaishaannai__left,
+    .p-kaishaannai__right{
+        height: 290px;
+    }
+    .p-kaishaannai__img{
+        img{
+            height: 290px;
+            width: 100%;
+        }
+    }
+    .p-kaishaannai__left{
+        margin-bottom: 10px;
+    }
+    .p-kaishaannai__text{
+        h2{
+            font-size: 3.2rem;
+        }
+        p{
+            font-size: 2.4rem;
+        }
+        padding-top:55px;
+        padding-left: 35px;
+    }
+    .long-button2,
+    .long-button{
+        font-size: 2.8rem;
+        padding: 35px 0;
+        height: auto;
+        line-height: inherit;
+    }
+
+
+    // Shirase
+    .p-oshirase__inline{
+        display: flex;
+        flex-direction: column;
+        font-size: 2.4rem;
+    }
+    .p-oshirase__logo{
+        width: 78px;
+    }
+    .p-oshirase__title{
+        margin-top: 18px;
+        font-size: 3.6rem;
+        font-weight: 500;
+    }
+    .c-oshirase__btn-next{
+        font-weight: bold;
+    }
+    .p-oshirase__list{
+        margin-top: 45px !important;
+        .header{
+            background-color: #fff;
+            border-top:1px solid #cccccc;
+        }
+        li{
+            list-style: none;
+            padding: 28px 0;
+        }
+    }
+    // Fix width PC to mobile
+    .p-kaishaannai__right, 
+    .p-kaishaannai__left{
+        width: 100%;
+    }
+    .p-kaishaannai,
+    .p-jigyoushoukai,
+    .p-jisekishoukai,
+    .p-slideshow{
+        max-width: 767px;
+        width: 100%;
+    }
+    .mlr-200{
+        margin-left: initial !important;
+        margin-right: initial !important;
+    }
+
+
+    // Footer
+    .c-footer{
+        height: 784px;
+        padding-top: 76px;
+        margin-top: 0;
+    }
+    .c-bg-left{
+        border-bottom: 784px solid #40a62a;
+        border-right: 222px solid transparent;
+    }
+    .c-bg-right{
+        border-bottom: 784px solid #44b8d1;
+        border-left: 222px solid transparent;
+    }
+    .c-bg-left__text{
+        color:#40a62a;
+        top:0
+    }
+    .c-footer__main .u-info{
+        max-width: 572px;
+        position: relative;
+        z-index: 999;
+    }
+    .c-footer__main .u-phone{
+        margin-top: 35px;
+    }
+    .c-footer__main .u-fax{
+        margin-top: 25px;
+    }
+    .c-footer__main .u-strest{
+        margin-top:38px;
+        font-size: 2.2rem;
+    }
+    .u-adress,
+    .u-medium-text,
+    .name-company{
+        font-size: 2.4rem !important;
+    }
+    .u-adress{
+        width: 572px;
+        letter-spacing: 2px;
+    }
+    .inline-text{
+        margin-top: 25px;
+        font-size: 2.4rem;
+        li{
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
+    .c-footer__main .u-copy-right{
+        font-size: 2rem;
+    }
+    .c-footer-right__text{
+        display: none;
+    }
+    .c-footer-left__text{
+        position: initial;
+        width: auto; 
+        color: #40a62a;
+        margin-left: 0;
+        margin-bottom: 45px;
+        text-align: center;
+        .c-big-text{
+            font-size: 6rem;
+        }
+        .c-medium-text{
+            font-size: 2.4rem;
+        }
+        p{
+            font-size: 2.4rem;
+        }
+    }
+
+
+
+
+    .p-jigyoushoukai{
+
+    }
+    .p-shouzaijouhou{
+        background-position: center;
+        background-size: cover;
+        height:1105px ;
+        max-width: 767px;
+        width: 100%;
+    }
+    .bg-matricepro{
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-360px, 3%);
+        width: 670px;
+        text-align: center;
+    }
+    .p-shouzaijouhou__text{
+        right: 0;
+        text-align: left;
+    }
+    .p-shouzaijouhou__text h1{
+        margin: 0 auto;
+        font-size: 3.2rem;
+        max-width:initial;
+    }
+    .p-shouzaijouhou__text p{
+        font-size: 2.4rem;
+        max-width:initial;
+        margin-top: 58px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .c-jigyoushoukai-box{
+        width: 100%;
+    }
+}

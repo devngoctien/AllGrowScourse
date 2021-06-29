@@ -1,0 +1,317 @@
+<%- include('inc/_header'); %>
+<!--▼ Content area ▼-->
+<main class="p-home ">
+     <div class="p-slideshow"> 
+        <div class="c-slide">
+            <div class="c-slide__title">
+                <div class="c-slide__img">
+                    <img src="../assets/img/logo-mark.slide.png" alt="">
+                    <div class="c-slide__big-text">
+                        <h1 class="u-verybig-textsize lh-80">Protect  </h1>
+                        <h1 class="u-verybig-textsize lh-80"><span class="u-fz-28 mr--30">the</span> future</h1>
+                        <p>防災技術を駆使し、地域の未来を守る。</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="c-slide__bg">
+                <img class="u-bg-pc" src="../assets/img/slide01.png" alt="">
+                <img class="u-bg-mobile" src="../assets/img/slide_mobile01.jpg" alt="">
+            </div>
+        </div>
+        <div class="c-slide">
+            <div class="c-slide__title2">
+                <div class="c-slide__big-text">
+                    <h1 class=" u-fz-80 ls-3">Technology  </h1>
+                    <p class="text-center u-fz-18"> 最新技術を生かす</p> 
+                </div>
+            </div>
+            <div class="c-slide__bg">
+                <img class="u-bg-pc" src="../assets/img/slide02.png" alt="">
+                <img class="u-bg-mobile" src="../assets/img/slide_mobile02.jpg" alt="">
+            </div>
+        </div> 
+        <div class="c-slide">
+            <div class="c-slide__title2">
+                <div class="c-slide__big-text">
+                    <h1 class=" u-fz-80 ls-5">Protect</h1>
+                    <p class="text-center u-fz-18">  生命と財産を守る</p> 
+                </div>
+            </div>
+            <div class="c-slide__bg">
+                <img class="u-bg-pc" src="../assets/img/slide03.png" alt="">
+                <img class="u-bg-mobile" src="../assets/img/slide_mobile03.jpg" alt="">
+            </div>
+           
+        </div>
+        <div class="c-slide">
+            <div class="c-slide__title2">
+                <div class="c-slide__big-text">
+                    <h1 class=" u-fz-80 ls-5">Connect</h1>
+                    <p class="text-center u-fz-18">地域と人を繋ぐ</p> 
+                </div>
+            </div>
+            <div class="c-slide__bg">
+                <img class="u-bg-pc" src="../assets/img/slide04.png" alt="">
+                <img class="u-bg-mobile" src="../assets/img/slide_mobile04.jpg" alt="">
+            </div>
+           
+        </div>
+        <div class="c-slide__dots">
+            <ul>
+                <li>
+                    <a href="#" class="dot" onclick="showSlides(1)"></a></li>
+                <li><a href="#" class="dot" onclick="showSlides(2)"></a></li>
+                <li><a href="#" class="dot" onclick="showSlides(3)"></a></li>
+                <li><a href="#" class="dot" onclick="showSlides(4)"></a></li>
+            </ul>
+        </div>
+        <div class="c-slide-static" onclick="nextSlide()">
+            <div class="c-slide__nextSlide">
+                <div class="dot" ></div>
+            </div>
+        </div>
+    </div> 
+     <div class="c-slide__info">
+            <div class="c-slide__info__insidebox">
+                <div class="c-slide__info__header">
+                    <div class="u-two-btn">
+                            <button class="btn-click">
+                                <i class="fas fa-angle-left"></i>
+                            </button>
+                            <button class="btn-click">
+                                <i class="fas fa-angle-right"></i>
+                            </button>    
+                    </div>
+                    <div class="text-info"> 
+                        <p class="dp-inline">2018年11月22日</p>  
+                        先進建設・防災・減災技術フェアin熊本にドローン等について出展しました。
+                    </div> 
+                </div>
+                <p class="c-slide__insidebox-left">お知らせ一覧 <span style="margin-left:15px ;">></span> </p>   
+            </div>
+    </div> 
+     <div class="p-jigyoushoukai container-lg text-center">
+        <div class="p-jigyoushoukai__header">
+            <img class="p-jigyoushoukai__logo" src="../assets/img/logo-mark.png" alt="">
+            <h2 class="p-jigyoushoukai__title">事業紹介</h2>
+            <p class="p-jigyoushoukai__text">アイエステーは、たゆまない技術向上により、地域防災事業に携わるとともに
+                地域の安全・安心を確保できるインフラ整備に貢献します。</p>   
+        </div>
+        <div class="p-jigyoushoukai__list-box">
+            <div class="c-jigyoushoukai-box">
+                <img  src="../assets/img/01.jpg" alt="">
+                <div class="c-foggy-opacity-bottomLeft-big"></div>
+                <div class="c-foggy-opacity-topRight-small"></div>
+                <div class="c-box-info origan-bg__color">
+                    <img src="../assets/img/tsunami.png" alt="">
+                    <div class="c-box-info__text">
+                        防災・減災業務
+                    </div>
+                </div>
+            </div>
+            <div class="c-jigyoushoukai-box">
+                <img  src="../assets/img/02.jpg" alt="">
+                <div class="c-foggy-opacity-topLeft-small"></div>
+                <div class="c-foggy-opacity-bottomRight-big"></div>
+                <div class="c-box-info bluesky-bg__color">
+                    <img src="../assets/img/drone.png" alt="">
+                    <div class="c-box-info__text">
+                        ICT・BIM/CIM
+                    </div>
+                </div>
+            </div>
+            <div class="c-jigyoushoukai-box">
+                <img  src="../assets/img/03.jpg" alt="">
+                <div class="c-foggy-opacity-bottomLeft-big"></div>
+                <div class="c-foggy-opacity-topRight-small"></div>
+                <div class="c-box-info yellowOld-bg__color">
+                    <img src="../assets/img/camera.png" alt="">
+                    <div class="c-box-info__text">
+                        測量・設計業務
+                    </div>
+                </div>
+            </div>
+            <div class="c-jigyoushoukai-box">
+                <img  src="../assets/img/04.jpg" alt="">
+                <div class="c-foggy-opacity-topLeft-small"></div>
+                <div class="c-foggy-opacity-bottomRight-big"></div>
+                <div class="c-box-info green-bg__color">
+                    <img src="../assets/img/drill.png" alt="">
+                    <div class="c-box-info__text">
+                        調査業務
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="p-shouzaijouhou"> -->
+        <img class="bg-dot" src="../assets/img/dot.png" alt="">
+        <div class="bg-matricepro">
+            <img  src="../assets/img/matricepro.png"alt="">
+        </div>
+        <div class="p-shouzaijouhou__text">
+            <h1>レーザースキャナ搭載のドローン* で安全かつ効率的に測量が可能。</h1> 
+            <p> アイエステーでは、ドローン搭載型の測量用レーザースキャナ搭載のドローンを導入しました。これにより、従来の写真測量で必須だった対
+                アイエステーでは、ドローン搭載型の測量用レーザースキャナ搭載のドローンを導入しました。これにより、従来の写真測量で必須だった対
+                アイエステーでは、ドローン搭載型の測量用レーザースキャナ搭載のドローンを導入しました。これにより、従来の写真測量で必須だった対
+            </p>
+            <p>＊アミューズワンセルフ社製：ドローン搭載用レーザースキャナシステム「TDOT（ティードット）</p>   
+        </div>
+    </div>
+    <div class="long-button3 text-center">
+        詳細情報 >
+    </div>
+    <div class="p-jisekishoukai">
+        <div class="p-jisekishoukai__text text-center">
+            <img src="../assets/img/logo-mark.png" alt="">
+            <h1>
+                実績紹介
+            </h1>
+            <h3>
+                『地域の人たちが安全に安心して暮らせるように、 <br>
+                そして豊かに快適に暮らせるように』、そんな想いを込めて仕事をしています
+            </h3>
+        </div>
+        <div class="mt-40 ">
+            <div class="p-jisekishoukai__litst-box ">
+                <div class="p-jisekishoukai_btn-pre" onclick="nextBox()">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="box">
+                    <div class="box__img">
+                        <img src="../assets/img/jisekishoukai_img1.png" alt="">
+                        <div class="tag-name blueSky-color">
+                            ICT・BIM/CIM
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <p>No title</p>
+                       
+                    </div>
+                    <div class="next-slide">
+                        >
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box__img">
+                        <img src="../assets/img/jisekishoukai_img2.png" alt="">
+                        <div class="tag-name origan-bg__color">
+                            防災・減災業務
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <p>十籠地すべり対策事業</p>
+                        
+                    </div>
+                    <div class="next-slide">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box__img">
+                        <img src="../assets/img/jisekishoukai_img3.png" alt="">
+                        <div class="tag-name origan-bg__color">
+                            防災・減災業務
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <p>水ヶ浦地区災害関連緊急地すべり対策事業</p>
+                        
+                    </div>
+                    <div class="next-slide">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box__img">
+                        <img src="../assets/img/jisekishoukai_img4.png" alt="">
+                        <div class="tag-name origan-bg__color">
+                            防災・減災業務
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <p>大切畑地区災害関連緊急地すべり対策事業</p>
+                        
+                    </div>
+                    <div class="next-slide">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="p-jisekishoukai_btn-next" onclick="nextBox()">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="long-button text-center">
+            実績紹介一覧 >
+        </div>
+    </div>
+    <div class="p-kaishaannai">
+            <div class="p-kaishaannai__left">
+                <div class="p-kaishaannai__img">
+                    <img src="../assets/img/two_img2.jpg" alt="">
+                </div>
+                <div class="p-kaishaannai__text">
+                    <h2>会社案内</h2>
+                    <p>これまでの防災技術と新分野のICTなどを拡充し、<br> 地元地域に密着した総合建設コンサルタントを目指します <br> ></p>
+                </div>
+            </div>
+            <div class="p-kaishaannai__right">
+                <div class="p-kaishaannai__img">
+                    <img src="../assets/img/two_img1.jpg" alt="">
+                </div>
+                <div class="p-kaishaannai__text">
+                    <h2>採用情報</h2>
+                    <p>私たちと共に専門知識や技術を高めながら <br>    地域の未来を守る人材を募集しています。<br> ></p>
+                </div>
+            </div>
+    </div>
+    <div class="p-oshirase text-center">
+            <img class="p-oshirase__logo"src="../assets/img/logo-mark.png" alt="">
+            <h1 class="p-oshirase__title">お知らせ</h1>
+            <div class="p-oshirase__list">
+                <ul>
+                    <li class="header">
+                        <a href="#" class="p-oshirase__inline">
+                            <div class="date_time">2018年11月22日 </div>
+                            <p> 先進建設・防災・減災技術フェアin熊本にドローン等につい <br> て出展しました。 </p>
+                         </a>
+                         <div class="c-oshirase__btn-next">></div>
+                    </li>
+                    <li>
+                        <a href="#" class="p-oshirase__inline">
+                            <div class="date_time">2018年11月20日</div>
+                            <p>ホームページをリニューアルしました</p> 
+                        </a>
+                        <div class="c-oshirase__btn-next">></div>
+                    </li>
+                    <li>
+                        <a href="#" class="p-oshirase__inline">
+                            <div class="date_time">2018年07月04日</div>
+                            <p>綿田地区の復興を願って寄付をしました。</p> 
+                        </a>
+                        <div class="c-oshirase__btn-next">></div>
+                    </li>
+                    <li>
+                        <a href="#" class="p-oshirase__inline">
+                            <div class="date_time">2017年10月12日</div>
+                            <p>福岡支店が移転しました。</p> 
+                        </a>
+                        <div class="c-oshirase__btn-next">></div>
+                    </li>
+                    <li>
+                        <a href="#" class="p-oshirase__inline">
+                            <div class="date_time">2017年09月01日</div>
+                            <p>ドローンレーザスキャナを導入しました</p> 
+                        </a>
+                        <div class="c-oshirase__btn-next">></div>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="long-button2 text-center">
+        お知らせ一覧 >
+    </div>
+</main>
+<!--▲ Content are ▲-->
+<%- include('inc/_footer'); %>

@@ -1,0 +1,110 @@
+/*------------------------------------------------------------
+footer
+------------------------------------------------------------*/
+.c-footer{
+    margin-top: 55px;
+    position: relative;
+}
+.c-bg-right,
+.c-bg-left{
+    width: 0;
+	height: 0;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+}
+.c-bg-left{
+    left: 0;
+	border-bottom: 525px solid #40a62a;
+	border-right: 670px solid transparent;
+}
+.c-bg-right{
+    right: 0;
+	border-bottom: 525px solid #48b7d0;
+	border-left: 670px solid transparent;
+}
+.c-footer-left__text,
+.c-footer-right__text{
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+.c-footer-left__text{
+    left: 0;
+}
+.c-footer-right__text{
+    right: 0;
+}
+.c-footer-left__text{
+    width: 300px;
+    color: #fff;
+    margin-left: 75px;
+    margin-bottom: 47px;
+    .c-big-text{
+        font-size: 5rem;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+    }
+    .c-medium-text{
+        font-size: 2rem;
+        margin-right: -10px;
+        letter-spacing: -1px;
+    }
+}
+.c-footer-right__text{
+    margin: 10px;
+
+}
+.c-back-to-top{
+    color:#000;
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: scollTop 1s infinite ;
+    animation-direction: alternate;
+}
+.c-back-top-top__text{
+    text-align: center;
+    margin-bottom: 20px;
+    i{
+        font-size: 2rem;
+    }
+}
+.c-footer__main{
+    .u-info{
+        max-width:380px ;
+        font-size: 1.3rem;
+        margin:0 auto;
+        margin-top: 14px;
+    }
+    .text-logo{
+        line-height: 46px;
+        font-size: 5rem;
+        letter-spacing: -5px;
+        font-weight: 600;
+    }
+    .u-phone{
+        margin:0 auto;
+        margin-top: 25px;
+        font-size: 2.6rem;
+    }
+    .u-fax{
+        margin: 0 auto;
+        margin-top: 18px;
+        font-size: 1.6rem;
+    }
+
+    .u-copy-right{
+        margin-top: 39px;
+    }
+    .click-next{
+        color:#48b7d0;
+        font-size: 2rem;
+    }
+}
+.inline-text{
+    li{
+        display: inline;
+    }
+}

@@ -1,0 +1,45 @@
+//============================================
+// clearfix
+//============================================
+@mixin clear {
+	*zoom: 1;
+	&:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+}
+
+//============================================
+// breakpoint
+//============================================
+@mixin breakpoint($point) {
+	@if $point == tablets {
+		@media only screen and (max-width: 1024px) { @content ; }
+	}
+	@else if $point == sp {
+		@media only screen and (max-width: 767px) { @content ; }
+	}
+}
+
+//============================================
+// Home Project News Component
+//============================================ 
+@mixin box-title($bg_color,$border_color){
+    border-left: 5px solid $border_color;
+    border-top:1px solid $border_color;
+	border-right:1px solid $border_color;
+	border-bottom:1px solid $border_color;
+    background-color: $bg_color;
+    color:#000;
+    font-weight: 600;
+	padding: 10px;
+	margin: 20px 0;
+	font-size: 20px;
+}
+@mixin btn-inside-img($bg_color){
+	background-color:$bg_color ;
+    color: #000;
+    border:none;
+    padding: 5px 20px;
+}

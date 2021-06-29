@@ -1,0 +1,244 @@
+/* Header
+------------------------------------------------------------*/
+.c-header{
+    position: fixed ;
+    top:0;
+    left: 0;
+    right: 0;
+    // width: 1920px;
+    z-index: 999;
+    width: 100%;
+}
+.no-scoll{
+    overflow: hidden;
+}
+.p-navbar{
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.p-navbar__logo{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 355px;
+}
+.u-name-logo li{
+    display: inline;
+}
+.label-childMenu{
+    display: block;
+}
+.p-navbar__menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.p-navbar__menu-link{
+    padding: 0 30px;
+    line-height: 80px;
+    display: block;
+    font-size: 1.6rem;
+}
+.c-menu-parent{
+    position: relative;
+    padding: 0;
+}
+.c-menu-child{
+    display: none;
+    background-color:#1c2633 ;
+    position: absolute;
+    margin-left: -80px;
+    padding: 15px;
+    li{
+        width: 280px;
+        color:#fff;
+        border-bottom: 1px solid #495057;
+        &:last-child{
+            border:none;
+        }
+    }
+}
+// Toggle dropdown item 採用情報
+#item-dropdown-menu1,
+#item-dropdown-menu2
+{
+    display: none;
+}
+#item-dropdown-menu1:checked ~ #dropdown-menu1{
+    display: block;
+}
+
+#item-dropdown-menu2:checked ~ #dropdown-menu2{
+    display: block;
+}
+
+
+
+
+// design Menu mobile 
+.icon-menu-mobile{
+    display: block;
+    line-height: 10px;
+}
+.p-navbar__mobile-menu{
+    display: none;
+    width: 100%;
+    background-color: #fff;
+    color:#000;
+    position: fixed;
+    z-index: 9999;
+    height: 2000px;
+    overflow-y: scroll;
+}
+.p-navbar-mobile__info{
+    border-top: 1px dotted #cccccc;
+    border-bottom: 1px dotted #cccccc;
+    padding: 45px 45px 35px 45px;
+    width: 767px;
+    .address{
+        font-size: 2.8rem;
+        margin-bottom: 74px;
+    }
+    .big-number{
+        font-size: 3.6rem;
+    }
+    .fax{
+        font-size: 2.4rem;
+    }
+}
+.p-navbar-mobile__item{
+    width: 100%;
+    transition: 1s ease-in-out;
+    li{
+        font-size: 3rem;
+        padding: 35px;
+        border-bottom: 1px dotted #cccccc;
+    }
+}
+.p-navbar__mobile-child-menu01{
+    display:none; 
+    background-color: #fff;
+    li{
+        border-bottom: 1px dotted #cccccc;
+        color: #000;
+    }
+}
+.p-navbar_menu-mobile-close{
+    display: none;
+}
+.p-navbar_menu-mobile-open{
+    display: none;
+}
+#menu-mobile-open{
+    display: none;
+}
+#menu-mobile-open:checked ~.p-navbar__mobile-menu{
+    display: block;
+}
+
+
+
+.blue-color{
+    color:#44b8d1;
+}
+.white-color{
+    color: #fff;
+}
+.green-bg-color{
+    background-color: #40a62a;
+}
+.blue-bg-color{
+    background-color:#44b8d1 ;
+}
+.p-navbar__mobile-icon{
+    padding-right: 15px;
+    font-size: 3.5rem;
+}
+
+.lh-55{
+    line-height: 55px;
+}
+.plr-18{
+    padding: 0 18px;
+}
+.plr-30{
+    padding: 0 30px !important;
+}
+// Child Menu jigyou 
+#c-saiyou__child-menu{
+    &:checked ~ .p-navbar-mobile__item{
+        display: none;
+    }
+    &:checked ~ .c-saiyou__child-menu{
+        display: block;
+    }
+}
+#c-jigyou__child-menu{
+    &:checked ~ .p-navbar-mobile__item{
+        display: none;
+    }
+    &:checked ~ .c-jigyou__child-menu{
+        display: block;
+    }
+}
+.c-jigyou__child-menu,
+.c-saiyou__child-menu{
+    display: none;
+    width: 100%;
+
+}
+.c-jigyou__return,
+.c-saiyou__return{
+    line-height: 85px;
+    color:#fff;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #333333;
+}
+.c-jigyou__menu-item,
+.c-saiyou__menu-item{
+    background-color: #fff;
+    color:#000;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: left;
+}
+.c-jigyou__menu-item li,
+.c-saiyou__menu-item li{
+    padding: 40px 42px;
+    line-height: 105px;
+    border-bottom: 1px dotted #cccccc;
+}
+.c-jigyou__menu-item .c-jigyou__icon,
+.c-saiyou__menu-item .c-saiyou__icon{
+    color:#44b8d1;
+    font-size: 3rem;
+    line-height: 105px;
+    margin-right: 18px;
+}
+// Fixed Mobile 
+.header-fixed .p-navbar{
+    height: 60px;
+    box-shadow: 0 5px 10px #888888;
+}
+.header-fixed .p-navbar__logo{
+    img {
+        width: 48px;
+    }
+    h1{
+        font-size: 3.6rem;
+    }
+    .u-name-logo{
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+}
+.header-fixed .p-navbar__menu-link{
+    line-height: 60px;
+}
+

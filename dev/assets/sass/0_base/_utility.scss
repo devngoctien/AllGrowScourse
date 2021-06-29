@@ -1,0 +1,122 @@
+///*------------------------------------------------------------
+//Anchor position
+//------------------------------------------------------------*/
+//.u-anchor:before{
+//	content:"";
+//	margin-top: -100px;
+//	padding-top: 100px;
+//}
+
+//------------------------------------------------------------
+// margin
+//------------------------------------------------------------
+
+//------------------------------------------------------------
+// color
+//------------------------------------------------------------
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+}
+.text-big-size{
+    font-size: 5rem;
+}
+.green-color{
+    background-color: #40a62a;
+    color:#fff;
+}
+.blueSky-color{
+    background-color: #48b7d0;
+    color:#fff;
+}
+.foat-right{
+    float: right;
+}
+.p-tb-15{
+    padding: 15px 0;
+}
+.display-block{
+    display: block;
+}
+.actived{
+    display: block;
+}
+.origan-bg__color{
+    background-color: #d05e48;
+    color: #fff;
+}
+.bluesky-bg__color{
+    background-color: #48b7d0;
+    color: #fff;
+}
+.yellowOld-bg__color{
+    background-color: #a68a2a;
+    color:#fff;
+}
+.green-bg__color{
+    background-color: #40a62a;
+    color:#fff;
+}
+.text-center{
+    text-align: center;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mlr-200{
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.u-medium-text{
+    font-size: 1.6rem;
+}
+.u-fz-32{
+    font-size: 3.2rem;
+}
+.u-fz-20{
+    font-size: 2rem;
+}
+.u-fz-18{
+    font-size: 1.8rem;
+}
+.u-fz-80{
+    font-size: 8rem;
+}
+.u-verybig-textsize{
+    font-size: 9rem;
+}
+.u-small-text{
+    font-size: 1.5rem;
+}
+.u-fz-28{
+    font-size: 2.8rem;
+    font-weight:500;
+}
+.lh-80{
+    line-height: 80px;
+}
+.lh-10{
+    line-height: 10px;
+}
+.ls-3{
+    letter-spacing: 3px;
+}
+.ls-5{
+    letter-spacing: 5px;
+}
+
+.actived{
+    display: block;
+}
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}

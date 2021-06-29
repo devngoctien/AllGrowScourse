@@ -1,0 +1,14 @@
+.p-businessbosai__header{
+    width: 720px;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+.p-businessbosai__menu-item{
+    text-align: center;
+    li{
+        display: inline;
+        &:first-child{
+            border-left: 1px solid #cccccc;
+        }
+    }
+}

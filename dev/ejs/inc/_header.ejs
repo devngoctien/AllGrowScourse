@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+  </head>
+  <body>
+    <!--▼ Header ▼-->
+     <header class="c-header">
+      <div class="p-navbar">
+        <div class="p-navbar__logo">
+          <img src="../../assets/img/logo-mark.png" alt="" />
+          <h1 class="text-big-size">IST</h1>
+          <ul class="u-name-logo">
+            <li>総合建設</li>
+            <li>コンサルタント</li>
+          </ul>
+        </div>
+		    <div class="p-navbar__mobile">
+          <div class="">
+            <label for="menu-mobile-open" class="icon-menu-mobile">
+              <div class="p-navbar_menu-mobile-open">
+                <div class="p-navbar__icon" >
+                  <i class="fas fa-bars " id="change-icon"></i>
+                </div>
+                <p>メニュー</p>
+              </div>
+              <div class="p-navbar_menu-mobile-close">
+                <div class="p-navbar__icon">
+                <i class="fas fa-times"></i>
+                </div>
+                <p>閉じる</p>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="p-navbar__pc">
+          <ul class="p-navbar__menu-item">
+            <li class="p-navbar__menu-link"><a href="#">会社案内</a></li>
+            <li class="p-navbar__menu-link c-menu-parent plr-30" >
+              <label class="label-childMenu" for="item-dropdown-menu2">
+                <a >事業紹介</a>
+              </label>
+              <input
+                type="checkbox"
+                name="dropdown-menu2"
+                id="item-dropdown-menu2"
+              />
+              <ul class="c-menu-child" id="dropdown-menu2">
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >防災・減災業務
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >ICT・BIM/CIM
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >測量・設計業務
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >調査業務
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="p-navbar__menu-link"><a href="#">実績紹介</a></li>
+            <li class="p-navbar__menu-link"><a href="#">技術資料</a></li>
+            <li class="p-navbar__menu-link c-menu-parent">
+              <label class="label-childMenu" for="item-dropdown-menu1">
+                <a class="green-color p-navbar__menu-link">採用情報</a>
+              </label>
+              <input
+                type="checkbox"
+                name="dropdown-menu1"
+                id="item-dropdown-menu1"
+              />
+              <ul class="c-menu-child" id="dropdown-menu1">
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >私たちの仕事
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >先輩社員の声
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="lh-55 display-block"
+                    >募集要項
+                    <span class="foat-right"
+                      ><i class="fas fa-angle-right"></i></span
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="p-navbar__menu-link blueSky-color plr-18">
+              <a href="#" 
+                >お問い合わせ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+	   
+    </header> 
+    <input type="checkbox" name="menu-mobile-open" id="menu-mobile-open">
+    <div class="p-navbar__mobile-menu">
+      <div class="p-navbar-mobile__info text-center">
+        <div class="address">〒860-0833　熊本市中央区平成3丁目16番13号</div>
+        <div class="tel">
+          tel. <span class="big-number">096-285-5177</span>
+        </div>
+        <div class="fax">fax.096-285-5188</div>
+      </div>
+      <input type="checkbox" name="saiyou-child-menu" style="display: none;" id="c-saiyou__child-menu">
+      <input type="checkbox" name="jigyou-child-menu" style="display: none;" id="c-jigyou__child-menu">
+      <ul class="p-navbar-mobile__item">
+        <li>
+          <a href=""
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-angle-right"></i
+            ></span>
+            お知らせ</a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-angle-right"></i
+            ></span>
+            会社案内</a
+          >
+        </li>
+        <li>
+          <label for="c-jigyou__child-menu">
+            <a 
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-plus" style="font-size: 24px"></i></span
+            >事業紹介</a
+          >
+          </label>
+        </li>
+        <li>
+          <a href=""
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-angle-right"></i></span
+            >実績紹介</a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-angle-right"></i></span
+            >技術資料</a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-angle-right"></i></span
+            >交通アクセス</a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><span class="p-navbar__mobile-icon blue-color"
+              ><i class="fas fa-angle-right"></i></span
+            >プライバシーポリシー</a
+          >
+        </li>
+        <li class="green-bg-color white-color">
+          <label for="c-saiyou__child-menu">
+          <a 
+            ><span class="p-navbar__mobile-icon"
+              ><i class="fas fa-plus" style="font-size: 24px"></i
+            ></span>
+            採用情報</a
+          >
+        </label>
+          <ul class="p-navbar__mobile-child-menu01">
+            <li>
+              <a href=""
+                ><span class="p-navbar__mobile-icon blue-color"
+                  ><i class="fas fa-angle-right"></i></span
+                >私たちの仕事</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><span class="p-navbar__mobile-icon blue-color"
+                  ><i class="fas fa-angle-right"></i></span
+                >先輩社員の声</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><span class="p-navbar__mobile-icon blue-color"
+                  ><i class="fas fa-angle-right"></i></span
+                >募集要項</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="p-navbar__mobile-icon blue-bg-color white-color">
+          <a href=""
+            ><span class="p-navbar__mobile-icon"
+              ><i class="fas fa-angle-right"></i
+            ></span>
+            お間い合わせ</a
+          >
+        </li>
+      </ul>
+      <div class="c-saiyou__child-menu">
+        <label for="c-saiyou__child-menu">
+        <div class="c-saiyou__return">
+            < 戻る 
+        </div>
+      </label>
+        <ul class="c-saiyou__menu-item">
+          <li><a href="#"><span class="c-saiyou__icon"><i class="fas fa-angle-right"></i></span> 私たちの仕事</a></li>
+          <li><a href="#"><span class="c-saiyou__icon"><i class="fas fa-angle-right"></i></span> 先輩社員の声</a></li>
+          <li><a href="#"><span class="c-saiyou__icon"><i class="fas fa-angle-right"></i> </span>募集要項</a></li>
+        </ul>
+      </div>
+      <div class="c-jigyou__child-menu">
+        <label for="c-jigyou__child-menu">
+        <div class="c-jigyou__return">
+            < 戻る 
+        </div>
+      </label>
+        <ul class="c-jigyou__menu-item">
+          <li><a href="#"><span class="c-jigyou__icon"><i class="fas fa-angle-right"></i></span> 事業紹介  </a></li>
+          <li><a href="#"><span class="c-jigyou__icon"><i class="fas fa-angle-right"></i></span>  防災・減災業務</a></li>
+          <li><a href="#"><span class="c-jigyou__icon"><i class="fas fa-angle-right"></i> </span> ICT・BIM/CIM</a></li>
+          <li><a href="#"><span class="c-jigyou__icon"><i class="fas fa-angle-right"></i> </span> 測量・設計業務</a></li>
+          <li><a href="#"><span class="c-jigyou__icon"><i class="fas fa-angle-right"></i> </span>調査業務</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--▲ Header ▲-->
+  </body>
+</html>
